@@ -1,0 +1,10 @@
+# Pinned to the versions the harness was built and tested against (2026-10-30).
+agentdojo==0.1.35
+openai==3.41.0
+pydantic==2.14.2
+pyyaml==6.0.3
+httpx==0.28.1  # used by tests
+pytest==9.2.0
+# Optional, only for --defense transformers_pi_detector (needs huggingface.co access; untested here):
+# transformers
+# torch

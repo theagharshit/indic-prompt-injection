@@ -1,0 +1,412 @@
+% references.bib -- every entry checked against the URL in its `url` field on 2026-10-30.
+% Fields not confirmed on a fetched page (e.g., some DOIs / page ranges) are omitted rather than guessed.
+
+% ---------------------------------------------------------------- (a) IPI benchmarks
+@inproceedings{greshake2023youve,
+  title     = {Not What You've Signed Up For: Compromising Real-World {LLM}-Integrated Applications with Indirect Prompt Injection},
+  author    = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh and Endres, Christoph and Holz, Thorsten and Fritz, Mario},
+  booktitle = {Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec)},
+  year      = {2023},
+  eprint    = {2302.12173},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2302.12173}
+}
+
+@inproceedings{debenedetti2024agentdojo,
+  title     = {{AgentDojo}: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for {LLM} Agents},
+  author    = {Debenedetti, Edoardo and Zhang, Jie and Balunovi{\'c}, Mislav and Beurer-Kellner, Luca and Fischer, Marc and Tram{\`e}r, Florian},
+  booktitle = {The Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year      = {2024},
+  eprint    = {2406.13352},
+  archivePrefix = {arXiv},
+  url       = {https://openreview.net/forum?id=m1YYAQjO3w}
+}
+
+@inproceedings{zhan2024injecagent,
+  title     = {{InjecAgent}: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents},
+  author    = {Zhan, Qiusi and Liang, Zhixiang and Ying, Zifan and Kang, Daniel},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {10471--10506},
+  year      = {2024},
+  address   = {Bangkok, Thailand},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2024.findings-acl.624},
+  url       = {https://aclanthology.org/2024.findings-acl.624/}
+}
+
+@inproceedings{zhang2025asb,
+  title     = {Agent Security Bench ({ASB}): Formalizing and Benchmarking Attacks and Defenses in {LLM}-based Agents},
+  author    = {Zhang, Hanrong and Huang, Jingyuan and Mei, Kai and Yao, Yifei and Wang, Zhenting and Zhan, Chenlu and Wang, Hongwei and Zhang, Yongfeng},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  eprint    = {2410.02644},
+  archivePrefix = {arXiv},
+  url       = {https://proceedings.iclr.cc/paper_files/paper/2025/hash/5750f91d8fb9d5c02bd8ad2c3b44456b-Abstract-Conference.html}
+}
+
+% Venue (reportedly KDD 2025) not confirmed on a fetched page -> cited as arXiv.
+@misc{yi2023bipia,
+  title         = {Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models},
+  author        = {Yi, Jingwei and Xie, Yueqi and Zhu, Bin and Kiciman, Emre and Sun, Guangzhong and Xie, Xing and Wu, Fangzhao},
+  year          = {2023},
+  eprint        = {2312.14197},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2312.14197}
+}
+
+@inproceedings{evtimov2025wasp,
+  title     = {{WASP}: Benchmarking Web Agent Security Against Prompt Injection Attacks},
+  author    = {Evtimov, Ivan and Zharmagambetov, Arman and Grattafiori, Aaron and Guo, Chuan and Chaudhuri, Kamalika},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025), Datasets and Benchmarks Track},
+  year      = {2025},
+  doi       = {10.52202/085713-0666},
+  eprint    = {2504.18575},
+  archivePrefix = {arXiv},
+  url       = {https://papers.nips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html}
+}
+
+@inproceedings{zharmagambetov2025agentdam,
+  title     = {{AgentDAM}: Privacy Leakage Evaluation for Autonomous Web Agents},
+  author    = {Zharmagambetov, Arman and Guo, Chuan and Evtimov, Ivan and Pavlova, Maya and Salakhutdinov, Ruslan and Chaudhuri, Kamalika},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025), Datasets and Benchmarks Track},
+  year      = {2025},
+  doi       = {10.52202/085713-4609},
+  eprint    = {2503.09780},
+  archivePrefix = {arXiv},
+  url       = {https://papers.nips.cc/paper_files/paper/2025/hash/c9826b9ea5e1b49b256329934a578d83-Abstract-Datasets_and_Benchmarks_Track.html}
+}
+
+% ---------------------------------------------------------------- (b) defenses
+@inproceedings{hines2024spotlighting,
+  title     = {Defending Against Indirect Prompt Injection Attacks With Spotlighting},
+  author    = {Hines, Keegan and Lopez, Gary and Hall, Matthew and Zarfati, Federico and Zunger, Yonatan and K{\i}c{\i}man, Emre},
+  booktitle = {Proceedings of the Conference on Applied Machine Learning in Information Security (CAMLIS 2024)},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {3920},
+  year      = {2024},
+  eprint    = {2403.14720},
+  archivePrefix = {arXiv},
+  url       = {https://ceur-ws.org/Vol-3920/paper03.pdf}
+}
+
+@inproceedings{chen2025struq,
+  title     = {{StruQ}: Defending Against Prompt Injection with Structured Queries},
+  author    = {Chen, Sizhe and Piet, Julien and Sitawarin, Chawin and Wagner, David},
+  booktitle = {34th USENIX Security Symposium (USENIX Security 25)},
+  pages     = {2383--2400},
+  year      = {2025},
+  eprint    = {2402.06363},
+  archivePrefix = {arXiv},
+  url       = {https://www.usenix.org/conference/usenixsecurity25/presentation/chen-sizhe}
+}
+
+@inproceedings{chen2025secalign,
+  title     = {{SecAlign}: Defending Against Prompt Injection with Preference Optimization},
+  author    = {Chen, Sizhe and Zharmagambetov, Arman and Mahloujifar, Saeed and Chaudhuri, Kamalika and Wagner, David and Guo, Chuan},
+  booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security (CCS '25)},
+  year      = {2025},
+  doi       = {10.1145/3719027.3744836},
+  eprint    = {2410.05451},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2410.05451}
+}
+
+@inproceedings{zhu2025melon,
+  title     = {{MELON}: Provable Defense Against Indirect Prompt Injection Attacks in {AI} Agents},
+  author    = {Zhu, Kaijie and Yang, Xianjun and Wang, Jindong and Guo, Wenbo and Wang, William Yang},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {267},
+  pages     = {80310--80329},
+  year      = {2025},
+  eprint    = {2502.05174},
+  archivePrefix = {arXiv},
+  url       = {https://proceedings.mlr.press/v267/zhu25z.html}
+}
+
+@misc{debenedetti2025camel,
+  title         = {Defeating Prompt Injections by Design},
+  author        = {Debenedetti, Edoardo and Shumailov, Ilia and Fan, Tianqi and Hayes, Jamie and Carlini, Nicholas and Fabian, Daniel and Kern, Christoph and Shi, Chongyang and Terzis, Andreas and Tram{\`e}r, Florian},
+  year          = {2025},
+  eprint        = {2503.18813},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2503.18813}
+}
+
+@inproceedings{li2025piguard,
+  title     = {{PIGuard}: Prompt Injection Guardrail via Mitigating Overdefense for Free},
+  author    = {Li, Hao and Liu, Xiaogeng and Zhang, Ning and Xiao, Chaowei},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {30420--30437},
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2025.acl-long.1468},
+  url       = {https://aclanthology.org/2025.acl-long.1468/}
+}
+
+@inproceedings{liu2025datasentinel,
+  title     = {{DataSentinel}: A Game-Theoretic Detection of Prompt Injection Attacks},
+  author    = {Liu, Yupei and Jia, Yuqi and Jia, Jinyuan and Song, Dawn and Gong, Neil Zhenqiang},
+  booktitle = {2025 IEEE Symposium on Security and Privacy (SP)},
+  pages     = {2190--2208},
+  year      = {2025},
+  doi       = {10.1109/SP61157.2025.00250},
+  eprint    = {2504.11358},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2504.11358}
+}
+
+@misc{chennabasappa2025llamafirewall,
+  title         = {{LlamaFirewall}: An Open Source Guardrail System for Building Secure {AI} Agents},
+  author        = {Chennabasappa, Sahana and Nikolaidis, Cyrus and Song, Daniel and Molnar, David and Ding, Stephanie and Wan, Shengye and Whitman, Spencer and Deason, Lauren and Doucette, Nicholas and Montilla, Abraham and Gampa, Alekhya and de Paola, Beto and Gabi, Dominik and Crnkovich, James and Testud, Jean-Christophe and He, Kat and Chaturvedi, Rashnil and Zhou, Wu and Saxe, Joshua},
+  year          = {2025},
+  eprint        = {2505.03574},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2505.03574},
+  note          = {Introduces PromptGuard 2 (86M, mDeBERTa-base; 22M, DeBERTa-xsmall)}
+}
+
+@misc{protectai2024deberta,
+  title        = {Model Card for deberta-v3-base-prompt-injection-v2},
+  author       = {{Protect AI}},
+  howpublished = {Hugging Face model card},
+  url          = {https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2},
+  note         = {Accessed 2026-10-30. Default detector of AgentDojo's \texttt{transformers\_pi\_detector} defense; card states it does not handle non-English prompts}
+}
+
+% ---------------------------------------------------------------- (c) multilingual jailbreaks
+@inproceedings{yong2023lowresource,
+  title     = {Low-Resource Languages Jailbreak {GPT-4}},
+  author    = {Yong, Zheng-Xin and Menghini, Cristina and Bach, Stephen H.},
+  booktitle = {NeurIPS 2023 Workshop on Socially Responsible Language Modelling Research (SoLaR)},
+  year      = {2023},
+  eprint    = {2310.02446},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2310.02446}
+}
+
+@inproceedings{deng2024multilingual,
+  title     = {Multilingual Jailbreak Challenges in Large Language Models},
+  author    = {Deng, Yue and Zhang, Wenxuan and Pan, Sinno Jialin and Bing, Lidong},
+  booktitle = {The Twelfth International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  eprint    = {2310.06474},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2310.06474}
+}
+
+@inproceedings{shen2024language,
+  title     = {The Language Barrier: Dissecting Safety Challenges of {LLM}s in Multilingual Contexts},
+  author    = {Shen, Lingfeng and Tan, Weiting and Chen, Sihao and Chen, Yunmo and Zhang, Jingyu and Xu, Haoran and Zheng, Boyuan and Koehn, Philipp and Khashabi, Daniel},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {2668--2680},
+  year      = {2024},
+  address   = {Bangkok, Thailand},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2024.findings-acl.156},
+  url       = {https://aclanthology.org/2024.findings-acl.156/}
+}
+
+@misc{yong2025state,
+  title         = {The State of Multilingual {LLM} Safety Research: From Measuring the Language Gap to Mitigating It},
+  author        = {Yong, Zheng-Xin and Ermis, Beyza and Fadaee, Marzieh and Bach, Stephen H. and Kreutzer, Julia},
+  year          = {2025},
+  eprint        = {2505.24119},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2505.24119}
+}
+
+@misc{talokar2026sting,
+  title         = {Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual {LLM} Agents},
+  author        = {Talokar, Nivya and Tarun, Ayush K. and Mandal, Murari and Andriushchenko, Maksym and Bosselut, Antoine},
+  year          = {2026},
+  eprint        = {2602.16346},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2602.16346}
+}
+
+% ---------------------------------------------------------------- (d) code-mixed / transliterated
+@inproceedings{yoo2025csrt,
+  title     = {Code-Switching Red-Teaming: {LLM} Evaluation for Safety and Multilingual Understanding},
+  author    = {Yoo, Haneul and Yang, Yongjin and Lee, Hwaran},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {13392--13413},
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2025.acl-long.657},
+  url       = {https://aclanthology.org/2025.acl-long.657/}
+}
+
+% v1 title: "Haet Bhasha aur Diskrimineshun": Phonetic Perturbations in Code-Mixed Hinglish to Red-Team LLMs
+@misc{aswal2025cmp,
+  title         = {Code-Mixed Phonetic Perturbations for Red-Teaming {LLM}s},
+  author        = {Aswal, Darpan and Jaiswal, Siddharth D.},
+  year          = {2025},
+  eprint        = {2505.14226},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2505.14226}
+}
+
+@misc{ghanim2024arabizi,
+  title         = {Jailbreaking {LLM}s with {A}rabic Transliteration and {A}rabizi},
+  author        = {Al Ghanim, Mansour and Almohaimeed, Saleh and Zheng, Mengxin and Solihin, Yan and Lou, Qian},
+  year          = {2024},
+  eprint        = {2406.18725},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2406.18725}
+}
+
+@misc{kabir2026banglashield,
+  title         = {{BanglaShield}: A Script-Robust Safety Classifier and Benchmark for {B}angla Native, Romanized, and Code-Mixed Prompts},
+  author        = {Kabir, Mohsinul and Tariquzzaman, Md. and Rifat, Mohammad Rashidujjaman and Ranasinghe, Tharindu and Raihan, Nishat},
+  year          = {2026},
+  eprint        = {2610.24288},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.24288}
+}
+
+@misc{upadhayay2026hinglish,
+  title        = {Layered Defense Against Stealth Prompt Injection in {H}inglish: An Empirically Grounded Hybrid Architecture},
+  author       = {Upadhayay, Abhishek},
+  year         = {2026},
+  howpublished = {Zenodo preprint},
+  doi          = {10.5281/zenodo.19685468},
+  url          = {https://zenodo.org/records/19685468}
+}
+
+% ---------------------------------------------------------------- (e) Indic safety benchmarks
+@inproceedings{pattnayak2026indicjr,
+  title     = {{IndicJR}: A Judge-Free Benchmark of Jailbreak Robustness in {S}outh {A}sian Languages},
+  author    = {Pattnayak, Priyaranjan and Chowdhuri, Sanchari},
+  booktitle = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 5: Industry Track)},
+  pages     = {649--668},
+  year      = {2026},
+  address   = {Rabat, Morocco},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2026.eacl-industry.50},
+  url       = {https://aclanthology.org/2026.eacl-industry.50/}
+}
+
+@misc{pattnayak2026indicsafe,
+  title         = {{IndicSafe}: A Benchmark for Evaluating Multilingual {LLM} Safety in {S}outh {A}sia},
+  author        = {Pattnayak, Priyaranjan and Chowdhuri, Sanchari},
+  year          = {2026},
+  eprint        = {2603.17915},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2603.17915}
+}
+
+@misc{banerjee2026surakshaeval,
+  title         = {{SurakshaEval}: An {I}ndic Safety Benchmark for Multilingual {LLM}s},
+  author        = {Banerjee, Debopriyo and Kavitha, Kapil Rajesh and Borah, Angana and Han, Xudong and Wang, Yuxia and Krishnamurthy, Parameswari and Agarwal, Utkarsh and Kulkarni, Atharva and Lata, Swaran and Munot, Ayush and Sahnan, Dhruv and Singh, Aaryamonvikram and Nakov, Preslav and Choudhury, Monojit},
+  year          = {2026},
+  eprint        = {2608.07862},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2608.07862}
+}
+
+@inproceedings{mondal2026indicsafeeval,
+  title     = {{IndicSafeEval}: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks},
+  author    = {Mondal, Saikat and Mamta, Mamta and Varshney, Deeksha and Cocarascu, Oana and Ekbal, Asif},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  pages     = {52853--52889},
+  year      = {2026},
+  address   = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2026.findings-emnlp.2457/}
+}
+
+% ---------------------------------------------------------------- (f) multilingual injection / agents (closest work)
+@inproceedings{hofman2026maps,
+  title     = {{MAPS}: A Multilingual Benchmark for Agent Performance and Security},
+  author    = {Hofman, Omer and Brokman, Jonathan and Rachmil, Oren and Bose, Shamik and Pahuja, Vikas and Shimizu, Toshiya and Starostina, Trisha and Marchisio, Kelly and Goldfarb-Tarrant, Seraphina and Vainshtein, Roman},
+  booktitle = {Findings of the Association for Computational Linguistics: EACL 2026},
+  pages     = {821--845},
+  year      = {2026},
+  address   = {Rabat, Morocco},
+  publisher = {Association for Computational Linguistics},
+  eprint    = {2505.15935},
+  archivePrefix = {arXiv},
+  url       = {https://aclanthology.org/2026.findings-eacl.42/}
+}
+
+@misc{muhtadi2026mipiad,
+  title         = {{MIPIAD}: Multilingual Indirect Prompt Injection Attack Defense with {Qwen}--{TF-IDF} Hybrid and Meta-Ensemble Learning},
+  author        = {Muhtadi, Al Muhit and Tazwar, Mostafa Rifat},
+  year          = {2026},
+  eprint        = {2605.07269},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2605.07269}
+}
+
+@misc{uysal2026empirical,
+  title         = {An Empirical Evaluation of Prompt Injection Vulnerabilities in Large Language Models Across Multilingual and Obfuscated Attack Scenarios},
+  author        = {Uysal, {\c{C}}a{\u{g}}lar and Birinci, Baturay and Mutluergil, S{\"u}ha Orhun and {\c{C}}etin, Or{\c{c}}un},
+  year          = {2026},
+  eprint        = {2606.29602},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2606.29602}
+}
+
+@misc{theocharopoulos2025hidden,
+  title         = {Multilingual Hidden Prompt Injection Attacks on {LLM}-Based Academic Reviewing},
+  author        = {Theocharopoulos, Panagiotis and Kulkarni, Ajinkya and Magimai.-Doss, Mathew},
+  year          = {2025},
+  eprint        = {2512.23684},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2512.23684}
+}
+
+@misc{madhusudhanan2026visible,
+  title         = {Visible Reasoning and Indirect Prompt-Injection Monitorability Across {E}nglish, {T}amil, and {T}anglish},
+  author        = {G, Madhusudhanan},
+  year          = {2026},
+  eprint        = {2608.15392},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2608.15392}
+}
+
+@article{prihananto2026crosslingual,
+  title   = {Cross-Lingual Indirect Prompt Injection Across Retrieval, Reranking, and Generation in Multilingual {RAG}},
+  author  = {Prihananto, Fauzi Bondan and Prakoso, Erlangga Bayu Yudho and Sari, Aprilisa Arum and Islami, Tomy Anugrah},
+  journal = {Journal of Computer Science and Technology (JOCSTEC)},
+  volume  = {4},
+  number  = {3},
+  pages   = {178--189},
+  year    = {2026},
+  doi     = {10.59435/jocstec.v4i3.809},
+  url     = {https://jurnal.padangtekno.com/index.php/jocstec/article/view/809}
+}
+
+% Project page only; no paper or results as of 2026-10-30. Repository committer: Himanshu Beniwal (Faerber Lab).
+@misc{babeldojo2026,
+  title        = {{BabelDojo}: Do Prompt-Injection Defenses for {LLM} Agents Survive Outside {E}nglish?},
+  author       = {{Faerber Lab}},
+  year         = {2026},
+  howpublished = {GitHub repository and project website},
+  url          = {https://github.com/faerber-lab/BabelDojo},
+  note         = {Created 2026-10-13; states that experiments have not been run yet. Accessed 2026-10-30}
+}
+
+@misc{monjur2026lowagent,
+  title         = {{LoWAgent}: A Low-Resource Multilingual Benchmark for Web Agents},
+  author        = {Monjur, Ocean and Nisar, Daud Ahmad and Nahin, Shahriar Kabir and Chhabra, Anshuman and Belay, Tadesse Destaw and Mishra, Sushruti and Azime, Israel Abebe},
+  year          = {2026},
+  eprint        = {2610.27205},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.27205},
+  note          = {Author names verified; exact author ORDER should be re-checked on the arXiv page before camera-ready}
+}
